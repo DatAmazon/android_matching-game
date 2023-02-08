@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "410898702381",
+    "project_id": "matchinggamef",
+    "storage_bucket": "matchinggamef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410898702381:android:74d371777b61c68b0598a4",
+        "android_client_info": {
+          "package_name": "com.example.matchinggamef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410898702381-r45ntb3vhgkpo802a510pv2ibardnlnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matchinggamef",
+            "certificate_hash": "b5a5be537d8827804a6b2393fe2e3eb1d894d021"
+          }
+        },
+        {
+          "client_id": "410898702381-qldco8pvuq9rn8ieb6792ssbetdlogmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoAmPS9yg1Fny01iWXUAmmu4rJs3HbI2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410898702381-qldco8pvuq9rn8ieb6792ssbetdlogmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

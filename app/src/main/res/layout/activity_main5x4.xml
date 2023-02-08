@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4x4">
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollView5x4"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbars="horizontal"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCECE">
+
+        <TextView
+            android:id="@+id/tvTen"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:freezesText="true"
+            android:text="Tên người chơi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSoCapDaGhep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTen"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:freezesText="true"
+            android:text="Số cặp đã ghép: 0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSoLanLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSoCapDaGhep"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:freezesText="true"
+            android:text="Số lần lật: 0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTenCheDo5x4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSoCapDaGhep"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="294dp"
+            android:layout_marginTop="33dp"
+            android:freezesText="true"
+            android:text="Chế độ"
+            android:textColor="#3196FF"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar5x4"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tvSoLanLat"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:progress="0" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton_30"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_32"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/ImageButton_40"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_41"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_42"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_43"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dauhoi"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity4x4">
+
+        <Button
+            android:id="@+id/btnKetThuc5x4"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="16dp"
+            android:text="Kết thúc"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="236dp"
+            android:layout_marginBottom="16dp"
+            android:text="Progress"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
